@@ -14,3 +14,18 @@ public:
      return false;
     }
 };
+// class Solution {
+// public:
+//     bool isPowerOfTwo(int n) {
+        
+//             int m=n;
+//         int count=0;
+//         while(m!=0 && m<pow(2,31)/2){
+//             if((m & 1 ) == 1) count++;
+//             m = m >> 1;
+//         }
+//         if(count==1) return true;
+      //          ///// if(n=pow(2,30)) return true;
+//         else return false;
+//     }
+// };
