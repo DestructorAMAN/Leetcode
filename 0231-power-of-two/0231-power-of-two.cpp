@@ -14,6 +14,8 @@ public:
      return false;
     }
 };
+
+// ______________________________________________________________________
 // class Solution {
 // public:
 //     bool isPowerOfTwo(int n) {
@@ -27,5 +29,15 @@ public:
 //         if(count==1) return true;
       //          ///// if(n=pow(2,30)) return true;
 //         else return false;
+//     }
+// };
+
+// ______________________________________________________________________
+// class Solution {
+// public:
+//     bool isPowerOfTwo(int n) {
+//         if(n<=0) return false;
+//         else{
+//      return ((n & (n-1)) == 0); }  
 //     }
 // };
